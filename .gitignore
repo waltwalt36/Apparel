@@ -140,3 +140,6 @@ vite.config.ts.timestamp-*
 
 # Annoying .DS_Store file
 .DS_Store
+
+# aws files
+.aws-sam/
