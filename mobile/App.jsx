@@ -1,5 +1,7 @@
 import { View, Text } from 'react-native';
 import { Amplify } from 'aws-amplify';
+import { Login } from './src/screens/LoginScreen.jsx';
+import { SignUp } from './src/screens/SignUpScreen.jsx';
 const API_BASE_URL = process.env.EXPO_PUBLIC_API_URL;
 
 Amplify.configure({
@@ -21,8 +23,10 @@ Amplify.configure({
 
 export default function App() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Hello World</Text>
-    </View>
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text>Apparel</Text>
+        <Text><Login /></Text>
+        <Text><SignUp /></Text>
+      </View>
   );
 }
