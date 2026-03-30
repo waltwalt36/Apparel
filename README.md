@@ -1,4 +1,4 @@
-# 👗 Apparel — AI-Powered Fashion Stylist App
+# 👕 Apparel — AI-Powered Fashion Stylist App
 
 A full-stack mobile app that gives users personalized outfit recommendations using an agentic Claude AI backend.
 
